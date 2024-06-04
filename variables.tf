@@ -50,3 +50,10 @@ variable "private_data_subnet_az2_cidr" {
   description   = "private_data_subnet_az2_cidr"
   type          = string
 }
+
+#vpc variables
+
+variable "ssh_location" {
+  description   = "ip adress that can ssh to servers"
+  type          = string
+}
